@@ -14,17 +14,6 @@ function Navbar() {
       </label>
       <div className="navigation__background">&nbsp;</div>
 
-      {/* <nav className="navigation__nav--desktop">
-        <ul className="navigation__list--desktop">
-          <li className="navigation__item--desktop">
-            <NavLink className="navigation__link--desktop">LOG IN</NavLink>
-          </li>
-          <li>
-            <NavLink className="navigation__link--desktop">LOG IN</NavLink>
-          </li>
-        </ul>
-      </nav> */}
-
       <nav className="navigation__nav">
         <ul className="navigation__list">
           <li className="navigation__item">
@@ -32,7 +21,16 @@ function Navbar() {
               href="https://sairoden-natours.herokuapp.com/"
               className="navigation__link"
             >
-              <span>01</span> About Natours
+              <span>01</span> Login
+            </a>
+          </li>
+
+          <li className="navigation__item">
+            <a
+              href="https://sairoden-natours.herokuapp.com/"
+              className="navigation__link"
+            >
+              <span>02</span> Signup
             </a>
           </li>
           <li className="navigation__item">
@@ -40,7 +38,7 @@ function Navbar() {
               href="https://sairoden-natours.herokuapp.com/"
               className="navigation__link"
             >
-              <span>02</span> Your benefits
+              <span>03</span> About Natours
             </a>
           </li>
           <li className="navigation__item">
@@ -48,7 +46,7 @@ function Navbar() {
               href="https://sairoden-natours.herokuapp.com/"
               className="navigation__link"
             >
-              <span>03</span> Popular tours
+              <span>04</span> Your benefits
             </a>
           </li>
           <li className="navigation__item">
@@ -56,7 +54,7 @@ function Navbar() {
               href="https://sairoden-natours.herokuapp.com/"
               className="navigation__link"
             >
-              <span>04</span> Stories
+              <span>05</span> Popular tours
             </a>
           </li>
           <li className="navigation__item">
@@ -64,7 +62,15 @@ function Navbar() {
               href="https://sairoden-natours.herokuapp.com/"
               className="navigation__link"
             >
-              <span>05</span> Book now
+              <span>06</span> Stories
+            </a>
+          </li>
+          <li className="navigation__item">
+            <a
+              href="https://sairoden-natours.herokuapp.com/"
+              className="navigation__link"
+            >
+              <span>07</span> Book now
             </a>
           </li>
         </ul>
