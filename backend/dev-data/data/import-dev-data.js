@@ -7,8 +7,6 @@ const User = require("../../models/userModel");
 
 dotenv.config({ path: "./config.env" });
 
-const DB = `mongodb+srv://Sairoden:NB6wGkygKVz6Gjhe@cluster0.vah4dga.mongodb.net/?retryWrites=true&w=majority`;
-
 mongoose
   .connect(DB, {
     useNewUrlParser: true,
